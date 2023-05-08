@@ -1,0 +1,79 @@
+name: undigitally_dhiwise
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  outline_gradient_button: ^2.0.0+1
+  grouped_list: ^5.1.2
+  intl: ^0.17.0
+  url_launcher: 6.0.20
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto Slab
+      fonts: 
+        - asset: assets/fonts/RobotoSlabRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoSlabBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanSemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Arial
+      fonts: 
+        - asset: assets/fonts/ArialMT.ttf
+          weight: 400
+        - asset: assets/fonts/ArialBoldMT.ttf
+          weight: 700
+    - family: Barlow
+      fonts: 
+        - asset: assets/fonts/BarlowRegular.ttf
+          weight: 400
+    - family: Quicksand
+      fonts: 
+        - asset: assets/fonts/QuicksandBold.ttf
+          weight: 700
+    - family: Alatsi
+      fonts: 
+        - asset: assets/fonts/AlatsiRegular.ttf
+          weight: 400
